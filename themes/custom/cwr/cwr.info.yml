@@ -1,0 +1,4 @@
+name: cwr
+description: Drupal 8 project for CompWR
+type: theme
+core: 8.x

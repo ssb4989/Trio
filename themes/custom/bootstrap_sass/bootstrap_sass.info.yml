@@ -1,0 +1,15 @@
+core: 8.x
+type: theme
+base theme: bootstrap
+
+name: 'Bootstrap Sass'
+description: 'A Drupal Bootstrap 3 based sub-theme.'
+package: 'Bootstrap'
+
+regions:
+  header: 'Header'
+  content: 'Content'
+
+libraries-extend:
+  bootstrap/framework:
+    - bootstrap_sass/framework

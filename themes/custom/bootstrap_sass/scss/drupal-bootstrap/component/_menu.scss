@@ -1,0 +1,43 @@
+#myNavbar ul{
+    margin-top:40px !important;
+}
+
+#myNavbar ul li{
+    padding:0 2em !important;
+}
+
+#myNavbar ul li a{
+    color:gray !important;
+}
+
+#myNavbar ul li .active-trail {
+    color: black !important;
+    font-weight: bolder;
+}
+
+.navbar-header button{
+    background-color:black !important;
+    margin-top:40px !important;
+}
+
+.navbar-header button span {
+    border: 1px solid white !important;
+}
+
+@media only screen and (max-width:1319px){
+    #myNavbar ul li{
+        padding:0 0em !important;
+    }
+    #myNavbar ul li a{
+        padding:5px 15px !important;
+    }
+}
+
+@media only screen and (max-width:933px){
+    #myNavbar ul li{
+        padding:0 0em !important;
+    }
+    #myNavbar ul li a{
+        padding:10px 8px !important;
+    }
+}

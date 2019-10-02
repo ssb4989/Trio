@@ -1,0 +1,198 @@
+.main.field--name-field-main-image-media {
+    height: 700px !important;
+}
+
+.main_image_content {
+    position: relative;
+    width:100%;
+    min-height:530px !important;
+}
+
+.image-content {
+    position: absolute;
+    bottom: 20%;
+    left:20%;
+    color: white !important;
+    width:600px;
+}
+
+.field--name-node-title {
+    padding: 10px 0px;
+    font-size:45px !important;
+    text-transform: uppercase;
+    font-weight: 730 !Important;
+}
+
+.field--name-field-main-subtitle {
+    padding: 170px 170px !important;
+}
+
+.field--name-node-title h1 {
+    font-size:40px;
+    width:341px !important;
+    font-weight: 700;
+}
+
+.image-content p {
+    padding:0px 0px 0px 40px; 
+}
+
+@media screen and (max-width:1000px) {
+    .main_image_content{
+        height:200px !important;
+        width:auto; 
+    }
+    .image-content{
+        position: absolute;
+        top: 40px !important;
+        left:10% !important;
+        width:80% !important;
+    }
+    .field--name-node-title h1{
+        font-size:30px !important;
+        width:341px !important;
+        font-weight: 700;
+        }
+  }
+
+@media screen and (max-width:1300px){
+    .main_image_content{
+        min-height: 400px !important;
+    }
+    .field--name-node-title h1{
+    font-size:35px !important;
+    width:341px !important;
+    font-weight: 700;
+    }
+  }
+
+@media screen and (max-width:800px){
+    .main_image_content{
+        min-height: 300px !important;
+    }
+    .field--name-node-title h1{
+        font-size:24px !important;
+        width:auto !important;
+        font-weight: 600;
+    }
+    .image-content{
+        position: absolute;
+        top: 10px !important;
+        left:10% !important;
+        width:80% !important;
+    }
+}
+
+@media screen and (max-width:500px){
+    .main_image_content{
+        min-height: 150px !important;
+    }
+    .field--name-node-title h1{
+        font-size:24px !important;
+        width:341px !important;
+        font-weight: 600;
+    }
+    .image-content{
+        position: absolute;
+        top: 10% !important;
+        left:10% !important;
+        width:80% !important;
+    }
+}
+
+.paragraph--type-content-left-image-right {
+    margin:45px 0px;
+}
+
+.field--name-field-header-text {
+    font-weight: 600;
+    font-size: 30px;
+    padding: 20px 0px;
+}
+
+.field--name-field-content p {
+    line-height: 2em;
+    padding: 5px 50px;
+}
+
+.field--name-field-horizontal-image- {
+    margin:40px 0px;
+}
+
+.padding-0 a {
+    color:green !important;
+}
+
+.field--name-field-download-button a {
+    background-color: #7bb720;
+    color: white !important;
+    padding: 10px 40px !Important;
+    border-radius: 2px;
+    margin-left:48px !important;
+}
+
+.field--name-field-download-button {
+    margin:20px 0px 60px;
+}
+
+.field--name-field-content-with-list-items p {
+    line-height: 2em;
+    padding: 5px 50px;
+    margin-top:30px;
+}
+
+.field--name-field-content-with-list-items ul li{
+    list-style-type: none;
+    padding: 5px 50px;
+}
+
+.field--name-field-content-with-list-items ul li::before {
+    content: "\2022";
+    color:#7bb720;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    font-size:20px;
+    margin-left: -1em;
+}
+
+.field--name-field-download-image-thumbnail img{
+    width: 130px;
+}
+
+.field--items>div {
+    display: inline-block !important;
+    width: 400px;
+}
+
+.field--items .glyphicon-file,.file-size{
+    display: none !important;
+}
+
+.paragraph--type-download .group-left{
+    width:auto !important;
+}
+
+.paragraph--type-download .group-right{
+    width:60%;
+}
+
+.field--name-field-download-category{
+    padding:20px 45px 0px;
+}
+
+.field--name-field-download- .field--label{
+    font-size: 40px;
+    font-weight: 700;
+    margin: 20px 0px;
+}
+
+.field--items .file-link{
+    padding: 20px 30px;
+    font-size:20px;
+    border: none !important;
+}
+
+.file--mime-application-pdf span{
+    border:none !important;
+}
